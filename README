@@ -1,0 +1,37 @@
+# Calculadora — Windows Forms (C#)
+
+Aplicación de escritorio desarrollada en **C# con Windows Forms** como ejercicio práctico sobre creación de aplicaciones de escritorio en .NET.
+
+## Funcionalidades
+
+- Suma, resta, multiplicación y división.
+- Botón de limpiar (`C`).
+- Soporte para números decimales (usa coma `,` según configuración regional).
+- Validación de división por cero con mensaje de error.
+
+## Tecnologías
+
+- C#
+- .NET 10 (Windows Forms)
+- Visual Studio 2026
+
+## Estructura del proyecto
+
+```
+CalculadoraWindowsForms/
+├── CalculadoraWindowsForms.sln     ← abrir este archivo en Visual Studio
+├── WinFormsApp7/
+│   ├── WinFormsApp7.csproj
+│   ├── Program.cs
+│   ├── Form1.cs
+│   ├── Form1.Designer.cs
+│   └── Form1.resx
+├── .gitignore
+└── .gitattributes
+```
+
+## Cómo ejecutar
+
+1. Clonar el repositorio.
+2. Abrir `CalculadoraWindowsForms.sln` con Visual Studio 2026 (con la carga de trabajo **.NET desktop development** instalada).
+3. Presionar `F5` para compilar y ejecutar.
